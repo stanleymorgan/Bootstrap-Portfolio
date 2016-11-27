@@ -1,0 +1,505 @@
+.name{
+	color: white;
+    background:  #4aaaa5;
+    width: 150px;
+    height: 60px;
+    margin-left: 125px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.contact{
+	color: #4aaaa5;
+    background:  #4aaaa5;
+    width: 50px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+
+.wrapper{
+     background: #d3d3d3;
+     width:  960px;
+     height: 550px;
+     position: relative;
+     border-bottom-style: solid;
+     border-bottom-color: #4aaaa5;
+     border-bottom-width: 20px;
+}
+
+.content{
+	
+	width: 650px;
+	height: 450px;
+	background: white;
+	top: 40px;
+	left: 20px;
+	position: relative;
+}
+
+.pictute{
+	float: left;
+	border: 20px;
+}
+ 
+ .bio{
+ 	
+ 	position: relative;
+ }
+.s1{
+	font-size: 30px;
+	color: #4aaaa5;
+}
+
+.s2{
+	color: #4aaaa5;
+}
+
+.connect{
+	width: 270px;
+	height:150px;
+	position: absolute;
+	background: white;
+	top:40px;
+	right: 10px;
+}
+
+footer{
+	height: 80px;
+	width: 960px;
+	text-align: center;
+	background: #666666;
+	line-height: 60px;
+	color: white;
+
+}
+
+.outer{
+	 background: #d3d3d3;
+     width:  960px;
+     height: 700px;
+     position: relative;
+     border-bottom-style: solid;
+     border-bottom-color: #4aaaa5;
+     border-bottom-width: 20px;
+}
+
+form{
+	width: 650px;
+	height: 600px;
+	background: white;
+	position: relative;
+	top: 50px;
+	left: 15px;
+
+}
+
+ul{
+	list-style: none;
+	float: left;
+}
+
+li{
+	font-size: :18px;
+	color: #4aaaa5;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.aside{
+	width: 270px;
+	height:150px;
+	position: absolute;
+	background: white;
+	top:50px;
+	right: 15px;
+}
+
+.s3{
+	font-size: 22px;
+	right: 50px;
+
+}
+
+.s4{
+	color: #4aaaa5;
+	right: 50px;
+}
+
+.enterinfo{
+	height: 30px;
+	width: 550px;
+	background: white;
+	border-style: solid;
+	border-color:  #4aaaa5;
+	border-width: 1px;
+	position: relative;
+	left: 50px;
+}
+
+.entermessage{
+	height: 200px;
+	width: 550px;
+	background: white;
+	border-style: solid;
+	border-color:  #4aaaa5;
+	border-width: 1px;
+	position: relative;
+	left: 50px;
+}
+
+.submit{
+	height: 30px;
+	width: 70px;
+	background: #4aaaa5;
+	color: white;
+	font-size: 22px;
+    position: relative;
+	left: 50px;
+	bottom: 50px;
+}
+
+.formname{
+	font-size: 28px;
+	color: #4aaaa5;
+	padding-top: 10px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.nameinfo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 20px;
+	width: 610px;
+}
+
+.message{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 200px;
+	width: 610px;
+}
+
+.button{
+	margin-left: 20px;
+	color: white;
+	background: #4aaaa5;
+	margin-bottom: 5px;
+}
+
+
+
+/*  beginning of media queries */
+@media screen and (max-width: 980px){
+
+	.wrapper{
+		width:  100%;
+		height: 750px;
+	}
+
+	.content{
+		width:40%;
+		float: left;
+        display: block;
+        margin-left: 10%;
+        height: 650px;
+        position: relative;
+
+	}
+
+	.connect{
+		width:25%;
+		float: left;
+        display: block;
+        margin-right: 10%;
+
+	}
+
+	.picture{
+		width: 80%;
+		margin: 10%;
+
+	}
+
+	.outer{
+	 background: #d3d3d3;
+     width:  100%;
+     height: 700px;
+     position: relative;
+     border-bottom-style: solid;
+     border-bottom-color: #4aaaa5;
+     border-bottom-width: 20px;
+   }
+
+   form{
+	width: 40%;
+	height: 600px;
+	background: white;
+	position: relative;
+	top: 50px;
+	left: 15px;
+
+   }
+
+   .formname{
+	font-size: 28px;
+	color: #4aaaa5;
+	padding-top: 10px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.nameinfo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 20px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.message{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 200px;
+	width: 610px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.button{
+	margin-left: 20px;
+	color: white;
+	background: #4aaaa5;
+	margin-bottom: 5px;
+}
+
+.aside{
+	width: 25%;
+	height:150px;
+	position: absolute;
+	background: white;
+	top:50px;
+	right: 15%;
+}
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px){
+
+	.wrapper{
+		width:  100%;
+		height: 850px;
+	}
+
+	.content{
+		width:88%;
+		float: left;
+        display: block;
+        margin-left: 6%;
+        height: 600px;
+        position: relative;
+
+	}
+
+	.picture{
+		width: 40%;
+		margin: 10%;
+
+	}
+
+	.connect{
+		float: left;
+		position: relative;
+		width: 100%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 0;
+     }
+
+     .outer{
+	 background: #d3d3d3;
+     width:  100%;
+     height: 750px;
+     position: relative;
+     border-bottom-style: solid;
+     border-bottom-color: #4aaaa5;
+     border-bottom-width: 100%;
+   }
+
+   form{
+	width: 94%;
+	height: 500px;
+	background: white;
+	position: relative;
+	top: 50px;
+	margin-right: 3%;
+    margin-left:  1%;
+   }
+
+   .formname{
+	font-size: 28px;
+	color: #4aaaa5;
+	padding-top: 10px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.nameinfo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 20px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.message{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 140px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.button{
+	margin-left: 20px;
+	color: white;
+	background: #4aaaa5;
+	margin-bottom: 5px;
+}
+
+.aside{
+	width: 94%;
+	height:150px;
+	position: relative;
+	background: white;
+	top:80px;
+	margin-right: 3%;
+    margin-left:  18%;
+	
+}
+
+}	
+
+@media screen and (max-width: 640px){
+
+	.wrapper{
+		width:  100%;
+		height: 950px;
+	}
+
+	.content{
+		width:94%;
+		
+        display: block;
+        margin-left: 2%;
+        margin-right: 2%;
+        height: 650px;
+        position: relative;
+
+	}
+
+	.connect{
+		width:96%;
+		display: block;
+        margin-left: 2%;
+        margin-right: 2%;
+		clear: both;
+        display: block;
+        position: relative;
+        margin-bottom: 1%;
+
+	}
+
+	.picture{
+		width: 80%;
+		margin: 10%;
+
+	}
+
+	   .outer{
+	 background: #d3d3d3;
+     width:  100%;
+     height: 750px;
+     position: relative;
+     border-bottom-style: solid;
+     border-bottom-color: #4aaaa5;
+     border-bottom-width: 100%;
+   }
+
+   form{
+	width: 92%;
+	height: 500px;
+	background: white;
+	position: relative;
+	top: 50px;
+	margin-left: 2%;
+	margin-right: 2%;
+
+   }
+
+   .formname{
+	font-size: 28px;
+	color: #4aaaa5;
+	padding-top: 10px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.nameinfo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 20px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.message{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 140px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.button{
+	margin-left: 20px;
+	color: white;
+	background: #4aaaa5;
+	margin-bottom: 5px;
+}
+
+.aside{
+	width: 92%;
+	height:150px;
+	position: relative;
+	background: white;
+	top:80px;
+	margin-left: 19%;
+	margin-right: 2%;
+}
+
+}
+
+
